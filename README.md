@@ -46,7 +46,7 @@ This repository contains code for the ME5510 (Scientific Machine Learning) final
 
 CFD data files are hosted on Google Drive due to file size limits:
 
-📁 **[Download Data Files (Google Drive)](https://drive.google.com/YOUR_FOLDER_LINK_HERE)**
+📁 **[Download Data Files (Google Drive)](https://drive.google.com/drive/folders/1-jRjGigeHGifMTMdYUzBUpLdgyZmax-b?usp=sharing)**
 
 The folder contains:
 - `dataset_f01.npz` - f₀ = 0.1 Hz (training)
