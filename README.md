@@ -23,17 +23,23 @@ This repository contains code for the ME5510 (Scientific Machine Learning) final
 ## Repository Structure
 ```
 ├── data/                   # See Google Drive link below
-├── pinn/                   # PINN implementation
+├── PINN/                   # PINN implementation
 │   ├── pinn_cylinder_v2.py # Training script
 │   ├── pinn_v2_test.py     # Evaluation on unseen frequency
 │   └── pinn_v2_model.pt    # Trained model
+│   └── results/            # Result figures
 ├── pod_neural_ode/         # Neural ODE + POD implementation
-│   ├── train.py
-│   └── model.pt
+│   ├── neural_ode_flow.py
+│   ├── test_neural_ode.py
+│   ├── visualization_neural_ode.py
+│   └── neural_ode_model_v3.pt
+│   └── results/            # Result figures
 ├── vae_neural_ode/         # Neural ODE + VAE implementation
-│   ├── train.py
-│   └── model.pt
-└── results/                # Result figures
+│   ├── vae_neural_ode.py
+│   └── vae_neural_ode_model.pt
+│   ├── visualize_vae_ode.py
+│   └── results/            # Result figures
+
 ```
 
 ## Data
